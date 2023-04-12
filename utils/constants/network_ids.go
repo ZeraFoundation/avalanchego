@@ -14,17 +14,17 @@ import (
 // Const variables to be exported
 const (
 	MainnetID uint32 = 1
-	CascadeID uint32 = 2
+	TestNetID uint32 = 2
 	DenaliID  uint32 = 3
 	EverestID uint32 = 4
 	FujiID    uint32 = 5
 
-	TestnetID  uint32 = FujiID
+	TestnetID  uint32 = TestNetID
 	UnitTestID uint32 = 10
 	LocalID    uint32 = 12345
 
 	MainnetName  = "mainnet"
-	CascadeName  = "cascade"
+	TestNetName  = "testnet"
 	DenaliName   = "denali"
 	EverestName  = "everest"
 	FujiName     = "fuji"
@@ -33,7 +33,7 @@ const (
 	LocalName    = "local"
 
 	MainnetHRP  = "avax"
-	CascadeHRP  = "cascade"
+	TestNetHRP  = "testnet"
 	DenaliHRP   = "denali"
 	EverestHRP  = "everest"
 	FujiHRP     = "fuji"
@@ -49,7 +49,7 @@ var (
 
 	NetworkIDToNetworkName = map[uint32]string{
 		MainnetID:  MainnetName,
-		CascadeID:  CascadeName,
+		TestNetID:  TestNetName,
 		DenaliID:   DenaliName,
 		EverestID:  EverestName,
 		FujiID:     FujiName,
@@ -58,18 +58,17 @@ var (
 	}
 	NetworkNameToNetworkID = map[string]uint32{
 		MainnetName:  MainnetID,
-		CascadeName:  CascadeID,
+		TestNetName:  TestNetID,
 		DenaliName:   DenaliID,
 		EverestName:  EverestID,
 		FujiName:     FujiID,
-		TestnetName:  TestnetID,
 		UnitTestName: UnitTestID,
 		LocalName:    LocalID,
 	}
 
 	NetworkIDToHRP = map[uint32]string{
 		MainnetID:  MainnetHRP,
-		CascadeID:  CascadeHRP,
+		TestNetID:  TestNetHRP,
 		DenaliID:   DenaliHRP,
 		EverestID:  EverestHRP,
 		FujiID:     FujiHRP,
@@ -78,7 +77,7 @@ var (
 	}
 	NetworkHRPToNetworkID = map[string]uint32{
 		MainnetHRP:  MainnetID,
-		CascadeHRP:  CascadeID,
+		TestNetHRP:  TestNetID,
 		DenaliHRP:   DenaliID,
 		EverestHRP:  EverestID,
 		FujiHRP:     FujiID,

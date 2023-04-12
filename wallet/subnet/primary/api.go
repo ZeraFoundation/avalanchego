@@ -24,6 +24,7 @@ const (
 	MainnetAPIURI = "https://api.avax.network"
 	FujiAPIURI    = "https://api.avax-test.network"
 	LocalAPIURI   = "http://localhost:9650"
+	TestNetAPIURI = "http://testnet.zera.vision"
 
 	fetchLimit = 1024
 )
