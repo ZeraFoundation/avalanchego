@@ -1,0 +1,4 @@
+[nodes]
+140.82.37.89 ansible_user=ubuntu
+95.179.165.156 ansible_user=ubuntu
+104.207.131.83 ansible_user=ubuntu
