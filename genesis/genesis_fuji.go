@@ -30,7 +30,7 @@ var (
 			AddSubnetDelegatorFee:         units.MilliAvax,
 		},
 		StakingConfig: StakingConfig{
-			UptimeRequirement: .8, // 80%
+			UptimeRequirement: .3, // 80%
 			MinValidatorStake: 1 * units.Avax,
 			MaxValidatorStake: 3 * units.MegaAvax,
 			MinDelegatorStake: 1 * units.Avax,
