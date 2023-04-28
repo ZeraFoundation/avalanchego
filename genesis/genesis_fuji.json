@@ -8,7 +8,7 @@
 			"unlockSchedule": [
 				{
 					"amount": 40000000000000000,
-					"locktime": 1682066500
+					"locktime": 1682695004
 				}
 			]
 		},
@@ -19,12 +19,12 @@
 			"unlockSchedule": [
 				{
 					"amount": 40000000000000000,
-					"locktime": 1682066500
+					"locktime": 1682695004
 				}
 			]
 		}
 	],
-	"startTime": 1682065700,
+	"startTime": 1682694004,
 	"initialStakeDuration": 31536000,
 	"initialStakeDurationOffset": 54000,
 	"initialStakedFunds": [
@@ -32,18 +32,28 @@
 	],
 	"initialStakers": [
 		{
-			"nodeID": "NodeID-FGbQGVXhAX8v8yhkLuHpxFykkmx5skfqr",
+			"nodeID": "NodeID-QDHgYWoCv94CF8ZCCFLzfWv9hkdPYbGVP",
 			"rewardAddress": "X-fuji1yyza827hrwnngs5t306xkxyhpp7586gyr854c5",
 			"delegationFee": 1000000
 		},
 		{
-			"nodeID": "NodeID-8a9Z7JPLZTZGrgxz1RG6JXPdC9dC5G8aB",
+			"nodeID": "NodeID-9mc8ccbmrVvuwL12HNGXjVyVU5zoA9d67",
 			"rewardAddress": "X-fuji1yyza827hrwnngs5t306xkxyhpp7586gyr854c5",
 			"delegationFee": 1000000
 		},
 		{
-			"nodeID": "NodeID-Ltx3G2VNJdzZv7vuqy1vpKtoQnAWW19y4",
+			"nodeID": "NodeID-6vj5kz9qJyR9DBcnZrjHBnoLKsaYxWT7R",
 			"rewardAddress": "X-fuji150a7nrjv030zrnl787cfdzhv0g7jkh8masp3kz",
+			"delegationFee": 1000000
+		},
+		{
+			"nodeID": "NodeID-33HVTeKJJnLYHN48Aj6z5EF7WmNe42LyN",
+			"rewardAddress": "X-fuji150a7nrjv030zrnl787cfdzhv0g7jkh8masp3kz",
+			"delegationFee": 1000000
+		},
+		{
+			"nodeID": "NodeID-2eEaPBULRRrin67XfJpLzmwie5MXBP5cj",
+			"rewardAddress": "X-fuji1yyza827hrwnngs5t306xkxyhpp7586gyr854c5",
 			"delegationFee": 1000000
 		}
 	],

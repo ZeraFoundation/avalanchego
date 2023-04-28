@@ -43,8 +43,8 @@ func getIPs(networkID uint32) []string {
 			"140.82.37.89:9651",
 			"95.179.165.156:9651",
 			"140.82.36.45:9651",
-			"136.244.95.194:9651",
-			"45.76.85.8:9651",
+			"80.240.20.163:9651",
+			"108.61.210.32:9651",
 		}
 	default:
 		return nil
@@ -83,11 +83,11 @@ func getNodeIDs(networkID uint32) []string {
 		}
 	case constants.FujiID:
 		return []string{
-			"NodeID-FGbQGVXhAX8v8yhkLuHpxFykkmx5skfqr",
-			"NodeID-8a9Z7JPLZTZGrgxz1RG6JXPdC9dC5G8aB",
-			"NodeID-C6e3osJfhNz23ftcTHCrZTZHZVrQuJaMG",
-			"NodeID-N1nrvzSXpg48ATbjeN7pCYeF4Zgg9B2n5",
-			"NodeID-QGRRuPubZ6SxX5cC31Z98H3QtuT61Hp3Q",
+			"NodeID-QDHgYWoCv94CF8ZCCFLzfWv9hkdPYbGVP",
+			"NodeID-9mc8ccbmrVvuwL12HNGXjVyVU5zoA9d67",
+			"NodeID-6vj5kz9qJyR9DBcnZrjHBnoLKsaYxWT7R",
+			"NodeID-33HVTeKJJnLYHN48Aj6z5EF7WmNe42LyN",
+			"NodeID-2eEaPBULRRrin67XfJpLzmwie5MXBP5cj",
 		}
 	default:
 		return nil
