@@ -42,7 +42,7 @@ func getIPs(networkID uint32) []string {
 		return []string{
 			"140.82.37.89:9651",
 			"95.179.165.156:9651",
-			"140.82.36.45",
+			"140.82.36.45:9651",
 		}
 	default:
 		return nil
