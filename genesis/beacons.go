@@ -42,7 +42,7 @@ func getIPs(networkID uint32) []string {
 		return []string{
 			"140.82.37.89:9651",
 			"95.179.165.156:9651",
-			"104.207.131.83:9651",
+			"140.82.36.45",
 		}
 	default:
 		return nil
@@ -83,7 +83,7 @@ func getNodeIDs(networkID uint32) []string {
 		return []string{
 			"NodeID-FGbQGVXhAX8v8yhkLuHpxFykkmx5skfqr",
 			"NodeID-8a9Z7JPLZTZGrgxz1RG6JXPdC9dC5G8aB",
-			"NodeID-Ltx3G2VNJdzZv7vuqy1vpKtoQnAWW19y4",
+			"NodeID-C6e3osJfhNz23ftcTHCrZTZHZVrQuJaMG",
 		}
 	default:
 		return nil
