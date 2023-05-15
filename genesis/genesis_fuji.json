@@ -4,27 +4,28 @@
 		{
 			"ethAddr": "0x7bd20c8286d203615884d754ae89789b45c2a4bb",
 			"avaxAddr": "X-fuji1yyza827hrwnngs5t306xkxyhpp7586gyr854c5",
-			"initialAmount": 32000000000000000,
+			"initialAmount": 20000000000,
+			
 			"unlockSchedule": [
 				{
-					"amount": 40000000000000000,
-					"locktime": 1682695004
+					"amount": 20000000000,
+					"locktime": 1685139120
 				}
 			]
 		},
 		{
 			"ethAddr": "0x4585c0d89bf754bbc5139a9d96002ee080689477",
 			"avaxAddr": "X-fuji150a7nrjv030zrnl787cfdzhv0g7jkh8masp3kz",
-			"initialAmount": 32000000000000000,
+			"initialAmount": 20000000000,
 			"unlockSchedule": [
 				{
-					"amount": 40000000000000000,
-					"locktime": 1682695004
+					"amount": 20000000000,
+					"locktime": 1685139120
 				}
 			]
 		}
 	],
-	"startTime": 1682694004,
+	"startTime": 1684139120,
 	"initialStakeDuration": 31536000,
 	"initialStakeDurationOffset": 54000,
 	"initialStakedFunds": [
