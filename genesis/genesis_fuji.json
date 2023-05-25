@@ -60,7 +60,7 @@
 		{
 			"ethAddr": "0x4585c0d89bf754bbc5139a9d96002ee080689477",
 			"avaxAddr": "X-fuji150a7nrjv030zrnl787cfdzhv0g7jkh8masp3kz",
-			"initialAmount": 50000000000000000000000000
+			"initialAmount": 500000000000000
 		}
 	],
 	"startTime": 1685004340,
