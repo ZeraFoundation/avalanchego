@@ -12,4 +12,4 @@ echo "Build tgz package..."
 cd $PKG_ROOT
 echo "Tag: $TAG"
 tar -czvf "avalanchego-linux-$ARCH-$TAG.tar.gz" avalanchego-$TAG
-aws s3 cp avalanchego-linux-$ARCH-$TAG.tar.gz s3://$BUCKET/linux/binaries/ubuntu/$RELEASE/$ARCH/
+s3cmd put avalanchego-linux-$ARCH-$TAG.tar.gz s3://$BUCKET/linux/binaries/ubuntu/$RELEASE/$ARCH/
